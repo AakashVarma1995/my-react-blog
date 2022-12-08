@@ -1,0 +1,21 @@
+.home {
+    h1 {
+        width: '100%';
+        color: $text-color;
+    }
+
+    .featured-posts-container {
+        display: flex;
+    }
+}
+
+@media screen and(max-width:900px) {
+    .home {
+        margin-block-start: 1.5rem;
+        margin-block-end: 1.5rem;
+    }
+
+    .featured-posts-container {
+        flex-direction: column;
+    }
+}
